@@ -1,0 +1,118 @@
+/*
+Stylesheet for J35: Mother, borrowed from Blood/Lines by Ali Rachel Pearl borrowed from 
+	Stylesheet from Divine Mind Fragment Theatre by Jim Andrews: Christmas 2014, Burnaby BC Canada.
+June 2015, Victoria BC Canada
+*/
+
+body {
+	color:#646464;
+	font-size: 100%;
+}
+
+#container {
+	/* Contains all content. */
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	background-color:white;
+}
+#title {
+	font-family: Georgia,serif;
+	font-size:150%;
+	font-weight:bold;
+	margin-left:10px;
+	margin-top:10px;
+}
+#maintext {
+	/* Contains the poem text and the bottom colophon image. */
+	position: relative;
+	top:25%;
+	margin:auto;
+	width:510px;
+	max-width:90%;
+	padding:12px;
+	font-size:11pt;
+}
+
+
+@media (max-width: 450px) {
+	/* For mobile phones. */
+  .passage0, .passage1, {
+    font-size:70%;
+  }
+}
+
+.body_green {  font-family: Georgia, "Arial", Times, serif; font-size: 14px; color: #2C04CD}
+.body_yellowgreen {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; color: #200687}
+.bodyblack {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; color: #000000}
+.bodygreensm {  font-family: Georgia, "Times New Roman", Times, serif; font-size: 14px; color: #200687
+
+}
+/* This particular stir fry has 3 texts. A style for each text
+so we can tell the texts apart when stirred together. */
+.passage0 {
+	color:black;
+}
+.passage1 {
+	color:#000000;
+}
+
+#titleImg {
+	/* The title image. */
+	padding:10px;
+}
+
+
+#links {
+	/* The div that contains the bottom left links to the Stir Fry
+	home page and to vispo.com */
+	position:fixed;
+	right:5px;
+	bottom:5px;
+	text-align:center;
+}
+
+a.stir:link, a.stir:visited {
+	/* Link to Stir Fry home page. */
+	font-family: Georgia, serif;
+	font-size: 0.8em;
+	color: gray;
+	text-decoration: none;
+	margin:0 auto;
+}
+a.stir:hover {  
+	color: #14c878;
+}
+
+
+a.logo:link, a.logo:visited {
+	/* Logo link to vispo.com */
+	font-family: "Georgia";
+	font-weight: normal;
+	text-decoration:none;
+}
+a.logo:hover {
+	font-weight:bold;
+}
+#v {
+	font-size:1em;
+	color:#FF0000;
+}
+#i {
+	font-size:0.8em;
+	color:#FFFF00;
+}
+#s {
+	font-size:0.6em;
+	color:#00FF00;
+}
+#p {
+	font-size:0.8em;
+	color:#83AEF5;
+}
+#o {
+	font-size:1em;
+	color:#FF80FF;
+}
